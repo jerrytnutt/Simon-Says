@@ -1,0 +1,123 @@
+#start, #strict,#resetButton,#score{
+   border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  color: #8c0707;
+  height: 80px;
+  width: 80px;
+}
+#start{
+   border: 5px solid #b28c2e;
+  background: linear-gradient(#9e7b1c, #f9b807);
+  }
+
+#strict{
+ border: 5px solid #e02323;
+}
+
+#resetButton{
+  border: 5px solid #32e9ef;
+   background: linear-gradient(#33cce0, #00075b);
+}
+
+#score{
+   font-size: 45px;
+  border-radius: 10%;
+  height: 70px;
+  width: 100px;
+  border: 5px #4c372a solid;
+  background-color: black;
+  color: #8c0707;
+  
+}
+
+.beforeStrict{
+  
+  background: linear-gradient(#f90000, #ed4536);
+ 
+}
+.afterStrict{
+ 
+  background: linear-gradient(#12b728, #0c9e20);
+}
+
+#start p, #strict p,#resetButton p, #score p {
+   margin-top: 25px;
+  color: black;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+
+.holder{
+   height: 100px;
+  width: 400px;
+  padding-top:15px;
+  background-color: #b0b0b2;
+  border-radius: 10%;
+ 
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+ul {
+	list-style: none;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+
+.simon {
+	background: #fff;
+	margin-right: 3em;	
+	width: 502px;
+  display: block;
+  margin: 0 auto;
+	height: 495px;
+	border-radius: 150px 150px 150px 150px;
+    
+}
+
+.blue, .red, .yellow, .green{
+  height: 220px;
+  width: 220px;
+  display: inline-block;
+  border: 5px solid black;
+}
+.yellow{
+  background: linear-gradient(#dfed1a, #a7af33);
+  border-bottom-right-radius: 100%;
+}
+.green{
+  background: linear-gradient(#57e53b, #0f8228);
+  border-top-right-radius: 100%;
+}
+
+
+.red:hover, .blue:hover, .yellow:hover, .green:hover {
+	cursor: pointer;
+}
+
+.red {
+	background: linear-gradient(#e50d0d, #c93636);
+	    border-top-left-radius: 100%;
+    
+
+}
+
+.blue {
+	background: linear-gradient(#3fc0cc, #015999);
+	border-bottom-left-radius: 100%;
+	
+}
+
+
+
+
+
+
+
