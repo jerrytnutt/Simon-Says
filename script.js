@@ -116,7 +116,7 @@ var colArr = [];
         setArr = [];
         yourTurn = false;
    round = 0;
-    $('#resetButton').html(round);
+    $('#score').html(round);
 }); 
  
   
