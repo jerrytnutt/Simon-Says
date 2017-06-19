@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="siminstyle.css">
+ 
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+<script src="simonscript.js"></script>
+  </head>
+
+
+
+
+
+<body>
+
+<div class="simon">
+ <ul>
+ <li class="red" id='r'></li>
+   <li class="green" id='g'></li>
+ 
+   <div class='holder'>
+     <div id='start'><p>Start</p></div>
+     <div id='strict' class='beforeStrict'><p>strict</p></div>
+     <div id='resetButton'><p>reset</p></div>
+     <div id='score'><p>--</p></div>
+   </div>
+
+   <li class="blue" id='b'></li>
+ <li class="yellow" id='y'></li>
+ </ul>
+  <audio id="blueSound" preload="auto">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg"></audio>
+  <audio id="greenSound" preload="auto">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg"></audio>
+  <audio id="redSound" preload="auto">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg"></audio>
+ <audio id="yellowSound" preload="auto">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg"></audio>
+  
+  
+  
+  
+  
+  
+</div>
+
+
+</body>
+</html>
